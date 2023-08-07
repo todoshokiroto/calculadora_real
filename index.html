@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <div id="tela"></div>
+        <div id="butoes">
+            <div id="numeros">
+                <div class="num">
+                    <button id="n1" onclick="concatNumb('n1')">1</button>
+                    <button id="n2" onclick="concatNumb('n2')" >2</button>
+                    <button id="n3" onclick="concatNumb('n3')">3</button>
+                    <button id = "menos" onclick="concatNumb('menos')"> - </button>
+                </div>
+                <div class="num">
+                    <button id="n4" onclick="concatNumb('n4')">4</button>
+                    <button id="n5" onclick="concatNumb('n5')">5</button>
+                    <button id="n6" onclick="concatNumb('n6')">6</button>
+                    <button id = "mais" onclick="concatNumb('mais')"> + </button>
+                </div>
+                <div class="num">
+                    <button id="n7" onclick="concatNumb('n7')">7</button>
+                   <button id="n8" onclick="concatNumb('n8')">8</button>
+                    <button id="n9" onclick="concatNumb('n9')">9</button>
+                    <button id = "mult" onclick="concatNumb('mult')"> x </button>
+                </div>
+                 <div class="num">
+                    <button id ="clear" onclick="ac()">AC</button>
+                    <button id = "n0" onclick="concatNumb('n0')">0</button>
+                    <button id ="equal"> = </button>
+                    <button id = "divi" onclick="concatNumb('divi')"> / </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
